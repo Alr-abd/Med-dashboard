@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: 'Poppins';
+        src: local('Poppins') url(../public/fonts/Poppins-Regular.ttf) format('ttf');
+        font-display: swap;
+    }
+
+    *,*::after,*::before {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-family: "Poppins";
+        background-color: rgb(249, 249, 249);
+    }
+}
